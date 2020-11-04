@@ -1,0 +1,15 @@
+#headshot {
+  align: center;
+  margin-left: 200px;
+  margin-top: 250px;
+  width: 400px;
+  float:left;
+}
+
+#paragraph {
+  color: #ffffff;
+  display: block;
+  padding-left: 0px;
+  margin-top: 200px;
+  float: right;
+}

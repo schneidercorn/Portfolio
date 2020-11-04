@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+}
+
+* {
+  font-family: Ubuntu;
+}
+
+a.centerUnderline:after {
+  content: '';
+  position: relative;
+  left: 0;
+  height: 0px;
+  width: 100%;
+
+  border-bottom: 3px solid #00ffdd;
+  display: inline-block;
+  opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.CURRENTcenterUnderline:after {
+  content: '';
+  position: relative;
+  left: 0;
+  height: 0px;
+  width: 100%;
+
+  border-bottom: 3px solid #00ffdd;
+  display: inline-block;
+  opacity: 1;
+}
+
+a.centerUnderline:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+nav ul {
+  align: center;
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+
+  background-color: #0a0a0a;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 1.5em;
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.navListContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navListContainer:hover {
+
+}
+
+.navLink {
+  color: #ffffff;
+}
+
+.navIcon {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 50px;
+  max-width: 2em;
+  float: right;
+}
+
+.navIcon:hover {
+  cursor: pointer;
+}
