@@ -1,15 +1,20 @@
-#headshot {
-  align: center;
-  margin-left: 200px;
-  margin-top: 250px;
-  width: 400px;
-  float:left;
+.aboutContainer {
+  display: flex;
 }
 
-#paragraph {
+#headshot {
+  margin-left: 5%;
+  margin-top: 15%;
+  width: 400px;
+  height: 400px;
+}
+
+#aboutMe {
+  font-size: 120%;
   color: #ffffff;
-  display: block;
-  padding-left: 0px;
-  margin-top: 200px;
-  float: right;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 400px;
+
 }
