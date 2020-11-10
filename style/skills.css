@@ -1,5 +1,4 @@
 h1 {
-  color: #fff;
   padding-left: 20px;
   margin-top: 120px;
   font-size: 32px;
@@ -12,7 +11,6 @@ h1 {
 
 .flex-container .skill-item {
   display: flex;
-  color: #fff;
   font-size: 125%;
   text-align: center;
   align-items: center;
