@@ -38,7 +38,7 @@ span[4].onclick = function() {
 }
 
 window.onclick = function(event) {
-  for (var i = 0; i < totalProjects; i++)
+  for (var i = 0; i <= totalProjects; i++)
     if (event.target == modal[i])
       modal[i].style.display = "none";
 }

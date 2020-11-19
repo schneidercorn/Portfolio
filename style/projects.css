@@ -32,6 +32,7 @@
 .projectModal {
   display: none;
   position: fixed;
+  font-size: 110%;
   z-index: 1;
   left: 0;
   top: 0;
@@ -44,18 +45,15 @@
 .projectModal-content {
   background-color: #fff;
   color: #000;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 10% auto; /* 15% from the top and centered */
+  margin-top: 5%;
   padding: 20px;
   border: 2px solid var(--accentColor);
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
 }
 
-#carSim {
-
-}
-
-#TweetMap {
-
+.projectModal-content h1 {
+  color: #000;
 }
 
 .close {
@@ -69,4 +67,22 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.projectModal-content video,
+.projectModal-content iframe {
+  display: block;
+  height: 400px;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.projectModal-content img {
+  display: block;
+  margin: 0 auto;
+  width: 45%;
+}
+
+a {
+  color: var(--accentColor);
 }
